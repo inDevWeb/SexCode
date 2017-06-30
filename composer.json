@@ -1,0 +1,22 @@
+{
+        "authors": [
+        {
+            "name": "devalexandre",
+            "email": "alexandre@indev.net.br"
+        }
+    ],
+
+    "name": "indevweb/sexcode",
+    "description": "boilerplate php and react",
+    "type": "project",
+
+    "autoload": {
+        "psr-4": {
+            "SexCode\\":"src/"
+        }
+},
+        "require": {
+                "aura/router": "^3.1",
+                "zendframework/zend-diactoros": "^1.4"
+        }
+}
